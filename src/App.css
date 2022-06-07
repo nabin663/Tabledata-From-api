@@ -39,11 +39,33 @@
 .mytable {
   background-color: lightgrey;
   box-sizing:border-box;
-  width:50%;
-  margin-left:auto;
-  margin-right:auto;
+
+
+  
 }
 thead {
   background-color:darkgrey;
   color:white;
+}
+
+body {
+background-color: grey;
+}
+
+#button {
+  background-color: red;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  float: right;
+
+}
+.icons{
+  display: flex;
+  justify-content: flex-end;
+
+
+} 
+.icons:hover {
+  cursor: pointer;
 }
